@@ -1,12 +1,13 @@
-package topic_2_linkedlist_int;
+package topic_2_linkedlist_string;
 
 public class Node {
-    int data;  
-    Node next;  
+	String data;  
+    Node next;    
 
     // Constructor
-    Node(int data) {
+    Node(String data) {
         this.data = data;
         this.next = null;
     }
+
 }
